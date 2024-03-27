@@ -1,0 +1,6 @@
+package com.ppp;
+public class InvalidPetAgeException extends Exception {
+    public InvalidPetAgeException(String message) {
+        super(message);
+    }
+}
